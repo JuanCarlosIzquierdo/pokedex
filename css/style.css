@@ -1,0 +1,97 @@
+html { /* Aquí definimos el tipo de letra que utilizará todo el contenido del archivo HTML */
+  font-family: 'Press Start 2P', sans-serif;
+}
+
+
+.content { /* Aquí se define la imágen del mapa como fondo del index ocupando el 100% de la pantalla */
+  margin: 0;
+  background-image: url(../img/kanto-map.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+.encabezado {
+  position: absolute; /* Define la posición como absolute */
+  left: 50%; /* Mueve el div hacia la derecha la mitad de su ancho */
+  transform: translate(-50%); /* Mueve el div hacia arriba y la izquierda la mitad de su tamaño */
+}
+
+.main-title {
+  background-color: rgba(0, 0, 0, 0.5); /* Aquí se define el color negro con 50% de transparencia */
+  color: white; /* Define el color del texto como blanco */
+  padding: 20px; /* Define el espacio de relleno interior */
+  border-radius: 10px; /* Define el radio de los bordes en 10px */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.pokedex { /* definimos la posición de la imágen de la pokedex */
+  position: absolute;
+  top: 30%;
+  left: 3%;
+}
+
+.info-pokemon {
+  background-color: #faebd6;
+}
+
+.title-pokemon {
+  text-align: center;
+}
+
+.fuego {
+  background-color: orange; /* Aquí se define el color naranja de fondo */
+  color: white; /* Define el color del texto como negro */
+  padding: 5px; /* Define el espacio de relleno interior */
+  border-radius: 5px; /* Define el radio de los bordes en 5px */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.fantasma {
+  background-color: purple; /* Aquí se define el color morado de fondo */
+  color: white; /* Define el color del texto como negro */
+  padding: 5px; /* Define el espacio de relleno interior */
+  border-radius: 5px; /* Define el radio de los bordes en 5px */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.psiquico {
+  background-color: pink; /* Aquí se define el color rosa de fondo */
+  color: white; /* Define el color del texto como negro */
+  padding: 5px; /* Define el espacio de relleno interior */
+  border-radius: 5px; /* Define el radio de los bordes en 5px */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+.volador {
+  background-color: aqua; /* Aquí se define el color azul clarito de fondo */
+  color: white; /* Define el color del texto como negro */
+  padding: 5px; /* Define el espacio de relleno interior */
+  border-radius: 5px; /* Define el radio de los bordes en 5px */
+  text-align: center; /* Centra el texto horizontalmente */
+}
+
+
+.btn {
+  background-color: red; /* Aquí se define el color rojo de fondo */
+  color: white; /* Define el color del texto como blanco */
+  padding: 10px; /* Define el espacio de relleno interior */
+  border-radius: 10px; /* Define el radio de los bordes en 10px */
+  text-align: center; /* Centra el texto horizontalmente */
+  text-decoration: none; /* Quitamos el subrayado de la línea por defecto de los enlaces <a> */
+}
+
+.pokemon-link {
+  color: #fff;
+  text-decoration: none; /* Quitamos el subrayado de la línea por defecto de los enlaces <a> */
+}
+
+.pokemon-container {
+  color: #fff;
+  position: absolute;
+  top: 65%;
+  left: 3%;
+}
